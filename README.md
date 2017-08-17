@@ -8,7 +8,7 @@ to verify your Mac host can be reached from within a Docker container
 Clone this repository
 
 ```bash
-git clone git@github.com:mtheoryx/simple-server.git
+git clone git@github.com:mtheoryx/simple-server.git && cd simple-server
 ```
 
 Install npm dependencies
@@ -34,8 +34,10 @@ Run the test script
 
 On success, results will read:
 
+```bash
 Success! Connected to host alias 192.168.65.1 from inside container!
 Success! Connected to host alias docker.for.mac.localhost from inside container!
+```
 
 You can also see that it's successful since there will be 2 more logs of `Got request!` from the node server.
 
