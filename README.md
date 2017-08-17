@@ -8,7 +8,7 @@ to verify your Mac host can be reached from within a Docker container
 Clone this repository
 
 ```bash
-git clone git@github.com:mtheoryx/simple-server.git && cd simple-server
+git clone https://github.com/mtheoryx/simple-server.git && cd simple-server
 ```
 
 Install npm dependencies
